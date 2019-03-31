@@ -1,0 +1,32 @@
+@model NurseryMgr.Models.Child.ChildIndexModel
+
+<div id='Children'>
+    <h3>List of All Children</h3>
+    <div id="childrenTable">
+        <table class="table table-condensed"  id="tableChildrensIndex">
+            <thead>
+                <tr>
+                    <th>Image</th>
+                    <th>Full Name</th>
+                    <th>Date of Birth</th>
+                    <th>Parent Name</th>
+                    <th>Class</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model.Children)
+                {
+                    <tr>
+                        <td>
+                            <img src="@item.ImageUrl" class="imageCell"/>
+                        </td>
+                        <td>@item.Name</td>
+                        <td>@item.DateOfBirth</td>
+                        <td>@item.ParentName</td>
+                        <td>@item.ClassLevel</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

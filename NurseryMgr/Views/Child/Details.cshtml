@@ -1,0 +1,35 @@
+<div class="container">
+    <div class="page-header clearfix detailHeading">
+        <h2 class="text-muted"> View Child</h2>
+    </div>
+</div>
+
+<div class="jumbotron">
+    <div class="row">
+        <div class="col-md-4">
+            <div>
+                <img class="detailImage" src="@Model.ImageUrl">
+            </div>
+        </div>
+        <div class="col-md-4">
+            <p id="title">@Model.FullName</p>
+            <p id="title">@Model.DateOfBirth</p>
+            <p id="title">@Model.ParentNames</p>
+            <p id="date"></p>
+            <p id="title">@Model.TeacherName</p>
+
+            @if(Model.Registration=="Registered"){
+                
+                @if(Model.isClassAssigned){
+                    <p id="childClass">Child Reistered to:@Model.ClassLevel </p>
+                }
+                else{
+                    <p><a class="btn btn-lg btn-info" role="button" asp-controller="Child" asp-action="Register" asp-route-id="@Model.Id">Assign Child to Class</a></p>
+                }
+            }
+            @if(Model.Registration=="Unregistered"){
+                <p><a class="btn btn-lg btn-info" role="button" asp-controller="Child" asp-action="Register" asp-route-id="@Model.Id">Register Child</a></p>
+            }
+        </div>
+    </div>
+</div>

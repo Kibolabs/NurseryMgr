@@ -1,0 +1,12 @@
+/Users/kibo/Desktop/WEBDEV/NurseryMgr/NurseryMgrServices/bin/Debug/netstandard2.0/NurseryMgrServices.deps.json
+/Users/kibo/Desktop/WEBDEV/NurseryMgr/NurseryMgrServices/bin/Debug/netstandard2.0/NurseryMgrServices.dll
+/Users/kibo/Desktop/WEBDEV/NurseryMgr/NurseryMgrServices/bin/Debug/netstandard2.0/NurseryMgrServices.pdb
+/Users/kibo/Desktop/WEBDEV/NurseryMgr/NurseryMgrServices/bin/Debug/netstandard2.0/NurseryMgrData.dll
+/Users/kibo/Desktop/WEBDEV/NurseryMgr/NurseryMgrServices/bin/Debug/netstandard2.0/NurseryMgrData.pdb
+/Users/kibo/Desktop/WEBDEV/NurseryMgr/NurseryMgrServices/obj/Debug/netstandard2.0/NurseryMgrServices.csprojAssemblyReference.cache
+/Users/kibo/Desktop/WEBDEV/NurseryMgr/NurseryMgrServices/obj/Debug/netstandard2.0/NurseryMgrServices.csproj.CoreCompileInputs.cache
+/Users/kibo/Desktop/WEBDEV/NurseryMgr/NurseryMgrServices/obj/Debug/netstandard2.0/NurseryMgrServices.AssemblyInfoInputs.cache
+/Users/kibo/Desktop/WEBDEV/NurseryMgr/NurseryMgrServices/obj/Debug/netstandard2.0/NurseryMgrServices.AssemblyInfo.cs
+/Users/kibo/Desktop/WEBDEV/NurseryMgr/NurseryMgrServices/obj/Debug/netstandard2.0/NurseryMgrServices.csproj.CopyComplete
+/Users/kibo/Desktop/WEBDEV/NurseryMgr/NurseryMgrServices/obj/Debug/netstandard2.0/NurseryMgrServices.dll
+/Users/kibo/Desktop/WEBDEV/NurseryMgr/NurseryMgrServices/obj/Debug/netstandard2.0/NurseryMgrServices.pdb
