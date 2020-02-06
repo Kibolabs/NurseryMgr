@@ -9,10 +9,14 @@ namespace NurseryMgrData
          DateTime getRegistrationDate(int id);
          IEnumerable<RegisterChild> GetAll();
          RegisterChild GetById(int id);
-         void MarkRegistered(int childId);
          void Unregister(int childId);
          void Deregister(int childId);
-         void Add(RegisterChild newRegisterChild);
-
+         string GetTeacherName(int childId);
+         void AddToClass(int childId);
+         void Register(RegisterChild newRegisterChild);
+         void AssignTeacher(int id);
+         void AddDailyActivity(DailyActivity newActivity); 
+         void AssignParent(int id); 
+         IEnumerable<DailyActivity> GetCurrentDailyActivity(int id);
     }
 }

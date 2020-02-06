@@ -23,18 +23,18 @@ namespace NurseryMgrServices
         public IEnumerable<Child> getAllChildren()
         {
            return _context.Children
-           .Include(kid=>kid.Parent)
-           .Include(kid=>kid.Class)
-           .Include(kid=>kid.DailyActivity);
+                .Include(kid=>kid.Parent)
+                .Include(kid=>kid.Class)
+                .Include(kid=>kid.DailyActivity);
         }
 
         public Child getChildById(int id)
         {
             return _context.Children
-           .Include(kid=>kid.Parent)
-           .Include(kid=>kid.Class)
-           .Include(kid=>kid.DailyActivity)
-           .FirstOrDefault(kid=>kid.Id == id);
+                .Include(kid=>kid.Parent)
+                .Include(kid=>kid.Class)
+                .Include(kid=>kid.DailyActivity)
+                .FirstOrDefault(kid=>kid.Id == id);
         }
         public Class getChildClass(int id)
         {
